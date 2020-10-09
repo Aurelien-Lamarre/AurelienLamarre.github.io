@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+input {
+    margin:0;
+    border:0;
+    padding:0;
+    display:inline-block;
+    vertical-align:middle;
+    white-space:normal;
+    background:none;
+    line-height:1;
+     
+    /* Browsers have different default form fonts */
+    font-size:13px;
+    font-family:Arial; 
+}
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    /* resize: none; */
+     /*remove the resize handle on the bottom right*/
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceship News</title>
+    <meta name="description" content="">
+    <meta name="contributors" content="Aurélien LAMARRE, Maxime LEBERRE, Rooarii MANUEL, Samson CORBIERE">
+    <link rel="shortcut icon" href="fa fa-space-shuttle">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="videoWrap">
+        <video autoplay muted loop id="theVideo">
+            <source src="/images/SunsetVideo.mov" type="video/mp4">
+        </video>
+    </div>
+    <div class="videoWrap2">
+            <video autoplay muted loop id="thevideo2">
+                <source src="/images/skyVideo2.mov" type="video/mp4">
+            </video>
+    </div>
+        <header class="header-wrap">
+            <nav class="navbar">
+            <!--topbar-->
+            <div class="nav-top-bar">
+                <div class="smallLogo" class="smallLogo-active"><a href="./index.html"><img src="images/logo-mobile-sf2.png"></a></div>
+                <div class="bigLogo"><a href="./index.html"><img src="images/logofinal.png" style="height: 6em;"></a></div> 
+                <div class="menu-burger">
+                    <div class="line-top"></div>
+                    <div class="line-middle"></div>
+                    <div class="line-bottom"></div>
+                </div>
+            </div>
+            <!--sidebar-->
+            <ul class="nav-list">
+                <li class="list-element" id="firstListElements">
+                    <a href="./feed.html">Feed</a>
+                </li><!-- logo -->
+                <li class="list-element" id="firstListElements">
+                    <a href="./contact.html">Contact</a>
+                </li><!-- News -->
+                <li class="list-element" id="firstListElements">
+                    <a href="./team.html">Team</a>
+                </li><!-- About + contact -->
+                <div class="switchMode">
+                    <input class="lightMode" type="checkbox" name=''>
+                </div>
+            
+            <ul class="nav-list2">
+                <li class="list-element">
+                    <a href="#">Policy</a>
+                </li><!-- Author page -->
+                <li class="list-element">
+                    <a href="#">Therms</a>
+                </li><!-- Author page -->
+                <li class="list-element">
+                 <a href="https://www.instagram.com/spaceshipnews/?hl=fr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <!--<a class="ion ion-social-instagram": before href="#">Insta</a>-->
+                </li><!-- Author page -->
+                <li class="list-element">
+                    <a href="https://twitter.com/spacesh25003953"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li><!-- Author page -->
+                <li class="list-element">
+                    <a href="https://www.twitch.tv/spaceshipnews"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+                </li><!-- Author page -->
+            </ul>
+        </ul>
+        </nav>
+    </header>
+    <main class="wrap">
+        <form class="search-form">
+            <label for="search"></label>
+            <input class="searchbar" type="text" id="search" name="search" placeholder="Search">
+        </form>
+        <div class="cards">
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card8"></div>
+                    <div class="card-body">
+                        <p class="card-title">Jabba the Trump: A comic and coloring page!</p>
+                        <p class= "card-read-time">2 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card2"></div>
+                    <div class="card-body">
+                        <p class="card-title">Why ‘Contact’ Is the Most Important Space Movie Ever Made</p>
+                        <p class= "card-read-time">6 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card7"></div>
+                    <div class="card-body">
+                        <p class="card-title">Elon Musk isn’t an alien. He’s becoming a robot instead.</p>
+                        <p class= "card-read-time">40 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card3"></div>
+                    <div class="card-body">
+                        <p class="card-title">My Journey to the Edge of Space</p>
+                        <p class= "card-read-time">30 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card12"></div>
+                    <div class="card-body">
+                        <p class="card-title">Spock and The Collective Consciousness</p>
+                        <p class= "card-read-time">180 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card9"></div>
+                    <div class="card-body">
+                        <p class="card-title">Ridley Scott returns to the franchise in “Alien: Covenant”.</p>
+                        <p class= "card-read-time">20 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card1-img"></div>
+                    <div class="card-body">
+                        <p class="card-title">About that space illustration you keep seeing around</p>
+                        <p class= "card-read-time">10 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card4"></div>
+                    <div class="card-body">
+                        <p class="card-title">Has NASA’s Kepler Mission Discovered an Alien Megastructure?</p>
+                        <p class= "card-read-time">20 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card11"></div>
+                    <div class="card-body">
+                        <p class="card-title">Why NASA’s EmDrive Might Be the Most Exciting Breakthrough</p>
+                        <p class= "card-read-time">35 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card5"></div>
+                    <div class="card-body">
+                        <p class="card-title">Is Humanity About To Declare War On Alien Civilizations?</p>
+                        <p class= "card-read-time">60 min</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card btn draw-border">
+                <a href="./article.html">
+                    <div class="card-img card6"></div>
+                    <div class="card-body">
+                        <p class="card-title">Why Mars Matters</p>
+                        <p class= "card-read-time">35 min</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footWrap">
+            <div class="footer1">
+                <ul class="infoNav">
+                    <li class="textFooter"><a href="./feed.html">Feed</a></li>
+                    <li class="textFooter"><a href="./contact.html">Contact</a></li>
+                    <li class="textFooter"><a href="./team.html">Team</a></li>
+                </ul>
+                <ul class="infoNav">
+                    <li class="tiret">|</li>
+                </ul>
+                <ul class="about">
+                    <li class="textFooter"><a href="#">Policy</a></li>
+                    <li class="textFooter"><a href="#">Terms & conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <ul class="socialMedia">
+                    <li class="textFooter"><a href="https://www.instagram.com/spaceshipnews/?hl=fr"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="textFooter"> <a href="https://twitter.com/spacesh25003953"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="textFooter"><a href="https://www.twitch.tv/spaceshipnews"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
